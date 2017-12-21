@@ -45,7 +45,7 @@ For a more complete configuration, here is the full set of options with all of t
        roleNameField="name"/>
 ----
 
-The syntax of mongoClientURI can be found here: http://api.mongodb.org/java/2.11.3/com/mongodb/MongoClientURI.html - through this variable you can configure the MongoRealm to connect to multiple MongoDB instances in a replicaSet.  You can configure timeouts, wait queue timeouts, read preferences (primary or secondary), authentication option for the connection to MongoDB.
+The syntax of mongoClientURI can be found here: http://api.mongodb.com/java/current/com/mongodb/MongoClientURI.html - through this variable you can configure the MongoRealm to connect to multiple MongoDB instances in a replicaSet.  You can configure timeouts, wait queue timeouts, read preferences (primary or secondary), authentication option for the connection to MongoDB.
         
 
 == Design Goals
